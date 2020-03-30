@@ -1,0 +1,26 @@
+header {
+    color:#777
+    border: 0;
+    background: #f8f8f8;
+    padding: 15px;
+    letter-spacing: 5px;
+}
+
+.me {
+    display: inline;
+    cursor: pointer;
+   
+}
+.me:hover{
+    color: #5e5e5e;
+}
+.text {
+    display: inline;
+    float: right;
+    margin: rigth;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.text:hover{
+    color:#1abc9c;
+}
