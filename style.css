@@ -40,7 +40,7 @@
     padding-bottom: 70px;
 
 }
-img {
+img.aguila {
 
     width: 250px;
     border-radius:50%
@@ -77,3 +77,17 @@ button:hover{
      border-color: #adadad;
      cursor: pointer;
 }
+/* -------------------------------Section Where To Find Me------------------------------------------*/
+.findMe {
+    text-align: center;
+    background-color: #ffffff;
+    color: #555555;
+    padding: 31px;
+   }
+.block {
+    float: left;
+    width: 33%;
+   
+}
+
+
