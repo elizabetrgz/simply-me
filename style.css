@@ -1,11 +1,23 @@
 /*-------------------------------------------- Header --------------------------------------------------- */
- header {
+* {
+    box-sizing: border-box;
+}
+
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    }
+    
+header {
     margin:0;
     border: 0;
     background: #f8f8f8;
     padding: 30px;
     letter-spacing: 5px;
 }
+
+
 
 .me {
     display: inline;
@@ -28,8 +40,6 @@
 }
 
 /*----------------------------------------- Main ------------------------------------------------------------*/
-
-
 /* -----------------------------------========-Section  >Who Am I ?---------------------*/
  section.whoAmI { 
     background-color: #1abc9c;
@@ -84,10 +94,32 @@ button:hover{
     color: #555555;
     padding: 31px;
    }
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
 .block {
     float: left;
     width: 33%;
-   
+   padding: 15px;
 }
 
+.block img {
+    width: 100%;
+}
 
+/* -------------------------Footer------------------------------------------------------------------------------ */
+footer {
+    background-color: #2f2f2f;
+    color: #fff;
+    text-align: center;
+    padding: 70px 15px;
+
+}
+ footer a{
+    color:#337ab7;
+    text-decoration: none;
+}
